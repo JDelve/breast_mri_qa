@@ -237,8 +237,8 @@ def snr(unsuppressed_one, unsuppressed_two, roi_proportion=0.8):
     right_std_dev = difference_image_right[right_roi.astype(bool)].std()
     right_mean = unsuppressed_one[right_roi.astype(bool)].mean()
 
-    left_snr = left_mean / (sqrt(2)*left_std_dev)
-    right_snr = right_mean / (sqrt(2)*right_std_dev)
+    left_snr = (sqrt(2)*left_mean) / left_std_dev
+    right_snr = (sqrt(2)*right_mean) / right_std_dev
 
     snr_results['left_snr'] = left_snr
     snr_results['right_snr'] = right_snr
