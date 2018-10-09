@@ -8,7 +8,10 @@ import json
 
 import numpy as np
 import requests
-import dicom
+try:
+    import pydicom as dicom
+except ImportError:
+    import dicom
 
 from .organise import Instance
 

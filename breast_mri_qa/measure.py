@@ -5,7 +5,10 @@ This module contains functions used to make the calculations required for QA.
 import os
 from math import sqrt, ceil
 
-import dicom
+try:
+    import pydicom as dicom
+except ImportError:
+    import dicom
 import numpy as np
 
 from skimage.filters import threshold_otsu
