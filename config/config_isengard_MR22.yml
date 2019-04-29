@@ -1,0 +1,12 @@
+name_identifier_pairs:
+    snr_acquisition_one: AX T1W TEST BREAST - COMBINED - UNCLEAR
+    snr_acquisition_two: AX T1W TEST BREAST - COMBINED - UNCLEAR
+    spir_water: AXT1W3D SPIR WATER
+    spir_fat: AXT1W3D SPIR FAT
+    coil_acquisition_one: AX T1W TEST BREAST - ELEMENTS - UNCLEAR
+    coil_acquisition_two: AX T1W TEST BREAST - ELEMENTS - UNCLEAR
+connection_params:
+    host: 10.229.159.147
+    port: 80
+    user: dicom
+    passwd: acr-nema-3

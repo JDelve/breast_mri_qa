@@ -1,0 +1,14 @@
+name_identifier_pairs:
+    coil_acquisition_one: DelRec - AX T1W TEST BREAST
+    coil_acquisition_two: DelRec - AX T1W TEST BREAST
+    snr_acquisition_one: AX T1W TEST BREAST
+    snr_acquisition_two: AX T1W TEST BREAST
+    spir_water: AXT1W3D SPIR WATER
+    spir_fat: AXT1W3D SPIR FAT
+    spair_water: AXT1W3D SPAIR WATER
+    spair_fat: AXT1W3D SPAIR FAT
+connection_params:
+    host: 10.229.159.147
+    port: 80
+    user: dicom
+    passwd: acr-nema-3
